@@ -1,0 +1,37 @@
+# Icarus Verilog output
+*.vvp
+*.out
+
+# Waveform files
+*.vcd
+*.lxt
+*.lxt2
+*.fst
+
+# Simulation logs
+*.log
+
+# Vivado (if used later)
+*.jou
+*.str
+*.xpr
+*.bit
+*.ltx
+.Xil/
+
+# Quartus (if used later)
+*.qpf
+*.qsf
+db/
+incremental_db/
+output_files/
+
+# Yosys
+*.blif
+*.json
+*.edif
+
+# General
+*.bak
+*~
+.DS_Store
