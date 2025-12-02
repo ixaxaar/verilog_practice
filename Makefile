@@ -4,7 +4,7 @@
 IVERILOG = iverilog
 
 # Source files
-SRCS = alu.v mux.v demux.v decoder.v encoder.v
+SRCS = alu.v mux.v demux.v decoder.v encoder.v comparator.v
 
 .PHONY: all clean lint
 
@@ -18,6 +18,7 @@ lint:
 	@$(IVERILOG) -t null demux.v
 	@$(IVERILOG) -t null decoder.v
 	@$(IVERILOG) -t null encoder.v
+	@$(IVERILOG) -t null comparator.v
 
 # Clean build artifacts
 clean:
